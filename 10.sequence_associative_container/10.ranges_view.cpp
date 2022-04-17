@@ -11,7 +11,7 @@ int Square(int i)
 {
     return i * i;
 }
-
+#inc
 int main()
 {
     // 数值适配器 from c++20

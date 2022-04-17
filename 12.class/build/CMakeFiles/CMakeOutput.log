@@ -1,0 +1,273 @@
+The system is: Linux - 3.10.0-1160.59.1.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /fs/applications/gcc/10.2.0/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/ihy1sgh/awsome-cpp/12.class/build/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /fs/applications/gcc/10.2.0/bin/g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/ihy1sgh/awsome-cpp/12.class/build/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/ihy1sgh/awsome-cpp/12.class/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2143559070/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2143559070.dir/build.make CMakeFiles/cmTryCompileExec2143559070.dir/build
+gmake[1]: Entering directory `/home/ihy1sgh/awsome-cpp/12.class/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ihy1sgh/awsome-cpp/12.class/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2143559070.dir/testCCompiler.c.o
+/fs/applications/gcc/10.2.0/bin/gcc    -o CMakeFiles/cmTryCompileExec2143559070.dir/testCCompiler.c.o   -c /home/ihy1sgh/awsome-cpp/12.class/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec2143559070
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2143559070.dir/link.txt --verbose=1
+/fs/applications/gcc/10.2.0/bin/gcc       CMakeFiles/cmTryCompileExec2143559070.dir/testCCompiler.c.o  -o cmTryCompileExec2143559070 -rdynamic 
+gmake[1]: Leaving directory `/home/ihy1sgh/awsome-cpp/12.class/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/ihy1sgh/awsome-cpp/12.class/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3423300690/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3423300690.dir/build.make CMakeFiles/cmTryCompileExec3423300690.dir/build
+gmake[1]: Entering directory `/home/ihy1sgh/awsome-cpp/12.class/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ihy1sgh/awsome-cpp/12.class/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3423300690.dir/CMakeCCompilerABI.c.o
+/fs/applications/gcc/10.2.0/bin/gcc    -o CMakeFiles/cmTryCompileExec3423300690.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3423300690
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3423300690.dir/link.txt --verbose=1
+/fs/applications/gcc/10.2.0/bin/gcc     -v CMakeFiles/cmTryCompileExec3423300690.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3423300690 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/fs/applications/gcc/10.2.0/bin/gcc
+COLLECT_LTO_WRAPPER=/fs/applications/gcc/10.2.0/bin/../libexec/gcc/x86_64-redhat-linux/10.2.0/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: /net/si0vmc3614/fs0/work/gcc-10.2.0/configure --prefix=/net/si0vmc3614/fs0/work/gcc-10.2.0-build --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,fortran,go,lto --enable-multilib --enable-plugin --enable-initfini-array --disable-libgcj --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (GCC) 
+COMPILER_PATH=/fs/applications/gcc/10.2.0/bin/../libexec/gcc/x86_64-redhat-linux/10.2.0/:/fs/applications/gcc/10.2.0/bin/../libexec/gcc/
+LIBRARY_PATH=/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/:/fs/applications/gcc/10.2.0/bin/../lib/gcc/:/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3423300690' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /fs/applications/gcc/10.2.0/bin/../libexec/gcc/x86_64-redhat-linux/10.2.0/collect2 -plugin /fs/applications/gcc/10.2.0/bin/../libexec/gcc/x86_64-redhat-linux/10.2.0/liblto_plugin.so -plugin-opt=/fs/applications/gcc/10.2.0/bin/../libexec/gcc/x86_64-redhat-linux/10.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwXjZOC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3423300690 /lib/../lib64/crt1.o /lib/../lib64/crti.o /fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/crtbegin.o -L/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0 -L/fs/applications/gcc/10.2.0/bin/../lib/gcc -L/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/../../.. CMakeFiles/cmTryCompileExec3423300690.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3423300690' '-rdynamic' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/home/ihy1sgh/awsome-cpp/12.class/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ihy1sgh/awsome-cpp/12.class/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec3423300690/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3423300690.dir/build.make CMakeFiles/cmTryCompileExec3423300690.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/ihy1sgh/awsome-cpp/12.class/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/ihy1sgh/awsome-cpp/12.class/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3423300690.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/fs/applications/gcc/10.2.0/bin/gcc    -o CMakeFiles/cmTryCompileExec3423300690.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3423300690]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3423300690.dir/link.txt --verbose=1]
+  ignore line: [/fs/applications/gcc/10.2.0/bin/gcc     -v CMakeFiles/cmTryCompileExec3423300690.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3423300690 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/fs/applications/gcc/10.2.0/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/fs/applications/gcc/10.2.0/bin/../libexec/gcc/x86_64-redhat-linux/10.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: /net/si0vmc3614/fs0/work/gcc-10.2.0/configure --prefix=/net/si0vmc3614/fs0/work/gcc-10.2.0-build --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,fortran,go,lto --enable-multilib --enable-plugin --enable-initfini-array --disable-libgcj --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/fs/applications/gcc/10.2.0/bin/../libexec/gcc/x86_64-redhat-linux/10.2.0/:/fs/applications/gcc/10.2.0/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/:/fs/applications/gcc/10.2.0/bin/../lib/gcc/:/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3423300690' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /fs/applications/gcc/10.2.0/bin/../libexec/gcc/x86_64-redhat-linux/10.2.0/collect2 -plugin /fs/applications/gcc/10.2.0/bin/../libexec/gcc/x86_64-redhat-linux/10.2.0/liblto_plugin.so -plugin-opt=/fs/applications/gcc/10.2.0/bin/../libexec/gcc/x86_64-redhat-linux/10.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwXjZOC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3423300690 /lib/../lib64/crt1.o /lib/../lib64/crti.o /fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/crtbegin.o -L/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0 -L/fs/applications/gcc/10.2.0/bin/../lib/gcc -L/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/../../.. CMakeFiles/cmTryCompileExec3423300690.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/fs/applications/gcc/10.2.0/bin/../libexec/gcc/x86_64-redhat-linux/10.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/fs/applications/gcc/10.2.0/bin/../libexec/gcc/x86_64-redhat-linux/10.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/fs/applications/gcc/10.2.0/bin/../libexec/gcc/x86_64-redhat-linux/10.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccwXjZOC.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3423300690] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/crtbegin.o] ==> ignore
+    arg [-L/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0] ==> dir [/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0]
+    arg [-L/fs/applications/gcc/10.2.0/bin/../lib/gcc] ==> dir [/fs/applications/gcc/10.2.0/bin/../lib/gcc]
+    arg [-L/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/../../../../lib64] ==> dir [/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/../../..] ==> dir [/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/../../..]
+    arg [CMakeFiles/cmTryCompileExec3423300690.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0] ==> [/fs/applications/gcc/10.2.0/lib/gcc/x86_64-redhat-linux/10.2.0]
+  collapse library dir [/fs/applications/gcc/10.2.0/bin/../lib/gcc] ==> [/fs/applications/gcc/10.2.0/lib/gcc]
+  collapse library dir [/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/../../../../lib64] ==> [/fs/applications/gcc/10.2.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/../../..] ==> [/fs/applications/gcc/10.2.0/lib]
+  implicit libs: [c]
+  implicit dirs: [/fs/applications/gcc/10.2.0/lib/gcc/x86_64-redhat-linux/10.2.0;/fs/applications/gcc/10.2.0/lib/gcc;/fs/applications/gcc/10.2.0/lib64;/lib64;/usr/lib64;/fs/applications/gcc/10.2.0/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/ihy1sgh/awsome-cpp/12.class/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3304603865/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3304603865.dir/build.make CMakeFiles/cmTryCompileExec3304603865.dir/build
+gmake[1]: Entering directory `/home/ihy1sgh/awsome-cpp/12.class/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ihy1sgh/awsome-cpp/12.class/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3304603865.dir/testCXXCompiler.cxx.o
+/fs/applications/gcc/10.2.0/bin/g++     -o CMakeFiles/cmTryCompileExec3304603865.dir/testCXXCompiler.cxx.o -c /home/ihy1sgh/awsome-cpp/12.class/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec3304603865
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3304603865.dir/link.txt --verbose=1
+/fs/applications/gcc/10.2.0/bin/g++        CMakeFiles/cmTryCompileExec3304603865.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3304603865 -rdynamic 
+gmake[1]: Leaving directory `/home/ihy1sgh/awsome-cpp/12.class/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/ihy1sgh/awsome-cpp/12.class/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1196267222/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1196267222.dir/build.make CMakeFiles/cmTryCompileExec1196267222.dir/build
+gmake[1]: Entering directory `/home/ihy1sgh/awsome-cpp/12.class/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ihy1sgh/awsome-cpp/12.class/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1196267222.dir/CMakeCXXCompilerABI.cpp.o
+/fs/applications/gcc/10.2.0/bin/g++     -o CMakeFiles/cmTryCompileExec1196267222.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec1196267222
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1196267222.dir/link.txt --verbose=1
+/fs/applications/gcc/10.2.0/bin/g++      -v CMakeFiles/cmTryCompileExec1196267222.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1196267222 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/fs/applications/gcc/10.2.0/bin/g++
+COLLECT_LTO_WRAPPER=/fs/applications/gcc/10.2.0/bin/../libexec/gcc/x86_64-redhat-linux/10.2.0/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: /net/si0vmc3614/fs0/work/gcc-10.2.0/configure --prefix=/net/si0vmc3614/fs0/work/gcc-10.2.0-build --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,fortran,go,lto --enable-multilib --enable-plugin --enable-initfini-array --disable-libgcj --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (GCC) 
+COMPILER_PATH=/fs/applications/gcc/10.2.0/bin/../libexec/gcc/x86_64-redhat-linux/10.2.0/:/fs/applications/gcc/10.2.0/bin/../libexec/gcc/
+LIBRARY_PATH=/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/:/fs/applications/gcc/10.2.0/bin/../lib/gcc/:/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1196267222' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /fs/applications/gcc/10.2.0/bin/../libexec/gcc/x86_64-redhat-linux/10.2.0/collect2 -plugin /fs/applications/gcc/10.2.0/bin/../libexec/gcc/x86_64-redhat-linux/10.2.0/liblto_plugin.so -plugin-opt=/fs/applications/gcc/10.2.0/bin/../libexec/gcc/x86_64-redhat-linux/10.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cczXO3A9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1196267222 /lib/../lib64/crt1.o /lib/../lib64/crti.o /fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/crtbegin.o -L/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0 -L/fs/applications/gcc/10.2.0/bin/../lib/gcc -L/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/../../.. CMakeFiles/cmTryCompileExec1196267222.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1196267222' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/home/ihy1sgh/awsome-cpp/12.class/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ihy1sgh/awsome-cpp/12.class/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec1196267222/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1196267222.dir/build.make CMakeFiles/cmTryCompileExec1196267222.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/ihy1sgh/awsome-cpp/12.class/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/ihy1sgh/awsome-cpp/12.class/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec1196267222.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/fs/applications/gcc/10.2.0/bin/g++     -o CMakeFiles/cmTryCompileExec1196267222.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec1196267222]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1196267222.dir/link.txt --verbose=1]
+  ignore line: [/fs/applications/gcc/10.2.0/bin/g++      -v CMakeFiles/cmTryCompileExec1196267222.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1196267222 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/fs/applications/gcc/10.2.0/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/fs/applications/gcc/10.2.0/bin/../libexec/gcc/x86_64-redhat-linux/10.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: /net/si0vmc3614/fs0/work/gcc-10.2.0/configure --prefix=/net/si0vmc3614/fs0/work/gcc-10.2.0-build --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,fortran,go,lto --enable-multilib --enable-plugin --enable-initfini-array --disable-libgcj --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/fs/applications/gcc/10.2.0/bin/../libexec/gcc/x86_64-redhat-linux/10.2.0/:/fs/applications/gcc/10.2.0/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/:/fs/applications/gcc/10.2.0/bin/../lib/gcc/:/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1196267222' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /fs/applications/gcc/10.2.0/bin/../libexec/gcc/x86_64-redhat-linux/10.2.0/collect2 -plugin /fs/applications/gcc/10.2.0/bin/../libexec/gcc/x86_64-redhat-linux/10.2.0/liblto_plugin.so -plugin-opt=/fs/applications/gcc/10.2.0/bin/../libexec/gcc/x86_64-redhat-linux/10.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cczXO3A9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1196267222 /lib/../lib64/crt1.o /lib/../lib64/crti.o /fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/crtbegin.o -L/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0 -L/fs/applications/gcc/10.2.0/bin/../lib/gcc -L/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/../../.. CMakeFiles/cmTryCompileExec1196267222.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/fs/applications/gcc/10.2.0/bin/../libexec/gcc/x86_64-redhat-linux/10.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/fs/applications/gcc/10.2.0/bin/../libexec/gcc/x86_64-redhat-linux/10.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/fs/applications/gcc/10.2.0/bin/../libexec/gcc/x86_64-redhat-linux/10.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cczXO3A9.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1196267222] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/crtbegin.o] ==> ignore
+    arg [-L/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0] ==> dir [/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0]
+    arg [-L/fs/applications/gcc/10.2.0/bin/../lib/gcc] ==> dir [/fs/applications/gcc/10.2.0/bin/../lib/gcc]
+    arg [-L/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/../../../../lib64] ==> dir [/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/../../..] ==> dir [/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/../../..]
+    arg [CMakeFiles/cmTryCompileExec1196267222.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0] ==> [/fs/applications/gcc/10.2.0/lib/gcc/x86_64-redhat-linux/10.2.0]
+  collapse library dir [/fs/applications/gcc/10.2.0/bin/../lib/gcc] ==> [/fs/applications/gcc/10.2.0/lib/gcc]
+  collapse library dir [/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/../../../../lib64] ==> [/fs/applications/gcc/10.2.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/fs/applications/gcc/10.2.0/bin/../lib/gcc/x86_64-redhat-linux/10.2.0/../../..] ==> [/fs/applications/gcc/10.2.0/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/fs/applications/gcc/10.2.0/lib/gcc/x86_64-redhat-linux/10.2.0;/fs/applications/gcc/10.2.0/lib/gcc;/fs/applications/gcc/10.2.0/lib64;/lib64;/usr/lib64;/fs/applications/gcc/10.2.0/lib]
+  implicit fwks: []
+
+

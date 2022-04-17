@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(main)
+set(SOURCES main.cpp)
+add_executable(main ${SOURCES})
+target_include_directories(main PUBLIC ${PROJECT_SOURCE_DIR})
