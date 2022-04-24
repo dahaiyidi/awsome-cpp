@@ -1,1 +1,0 @@
-/fs/applications/gcc/10.2.0/bin/g++       CMakeFiles/main.dir/main.cpp.o  -o main -rdynamic 

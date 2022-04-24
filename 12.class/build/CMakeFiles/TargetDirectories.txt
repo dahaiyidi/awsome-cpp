@@ -1,1 +1,0 @@
-/home/ihy1sgh/awsome-cpp/12.class/build/CMakeFiles/main.dir
