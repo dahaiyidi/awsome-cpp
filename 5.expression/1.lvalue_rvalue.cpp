@@ -25,11 +25,16 @@ void fun2(const int& par)
 
 int main()
 {
+    // https://zhuanlan.zhihu.com/p/99524127 现代C++之万能引用、完美转发、引用折叠
     int x = 1;
     // 这是不安全的写法，对于不同的编译器有不同的结果，C++对于该求值顺序没有要求。
     func(x = x + 1, x = x + 1); 
 
-    // 左值，右值
+    // 左值，右值定义 http://thbecker.net/articles/rvalue_references/section_01.html
+    // hich, although it can still be argued with, will put you in a position to 
+    // tackle rvalue references: An lvalue is an expression that refers to a memory location
+    //  and allows us to take the address of that memory location via the & operator.
+    //   An rvalue is an expression that is not an lvalue. 
     // 在 C++ 中，左值也不一定能放在等号左边；右值也可能放在等号左边
     const int x2 = 3; // x2标志着一个独一无二的对象，是一个glvalue,不属于将亡值(xvalue),因此x2是lvalue
     // x2 = 4; 但是x2不能放置在=左边（被赋值）

@@ -34,6 +34,8 @@ void fun(T input, T2 input2)
 
 template <typename T>
 // T&& 是万能引用,可以引用左值或右值
+// 如果一个变量或者参数被声明为T&&，其中T是被推导的类型，那这个变量或者参数就是一个universal reference。
+// auto&& 因为auto声明的变量的类型推导规则本质上和模板是一样的，所以使用auto的时候你也可能得到一个universal references。
 void fun2(T&& input)
 {
     std::cout << input << std::endl;
@@ -77,10 +79,16 @@ int main()
 
     // 函数形参是万能引用
     std::cout << "函数形参是万能引用" << std::endl;
+
     //   - 如果实参表达式是右值,模板形参会被推导为去掉引用的基本类型
     fun2(3);  // int&& x = 3;  T : int
     //  - 如果实参表达式是左值, 模板形参会被推导为左值引用,触发引用折叠
-    fun2(x);  // T :int&  ,此时函数形参类型为int& &&, 触发引用折叠,变为int&
+    fun2(x);  // T :int&  ,此时函数形参类型为int& &&, 触发引用折叠(reference collapsing),变为int&
+
+    // https://zhuanlan.zhihu.com/p/99524127 现代C++之万能引用、完美转发、引用折叠  非常好。
+    // 引用折叠只有两条规则:
+    // 1）一个 rvalue reference to an rvalue reference 会变成 (“折叠为”) 一个 rvalue reference.
+    // 2）所有其他种类的"引用的引用" (i.e., 组合当中含有lvalue reference) 都会折叠为 lvalue reference.
 
     // 函数形参不包含引用
     std::cout << "函数形参不包含引用" << std::endl;

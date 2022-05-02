@@ -43,6 +43,7 @@ void fun3(int& )
 }
 
 void fun3(const int& x)  // 重载中的特殊规则：可以与上面的函数共同出现，虽然在同一个级别中。
+// 常左值引用绑定到右值，非常左值引用不可绑定到右值！ 
 {
     std::cout << "fun3(const int& )\n";
 }
@@ -67,6 +68,7 @@ int main()
     int x;
     fun3(x); // 调用void fun3(int& )，因为x是变量，我们期待函数有可能改变x的，所以选择了该函数
     fun3(3); // 调用void fun3(const int& x) 因为左值引用不能绑定到右值上，直接过滤了void fun3(int& )， 所以选择了该函数。
+    // 常左值引用可以绑定到右值，非常左值引用不可绑定到右值！  https://zhuanlan.zhihu.com/p/99524127
 
     // fun4(1, 1); // 此时报错，因为对于两个fun4来说，级别都是1，3，无法区分
 
