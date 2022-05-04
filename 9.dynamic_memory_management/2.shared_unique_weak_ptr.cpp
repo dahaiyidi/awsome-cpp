@@ -84,7 +84,7 @@ int main()
     // unique_ptr
     std::cout << "unique_ptr" << std::endl;
     std::unique_ptr<int> x3(new int(3));
-    std::cout << x3 << std::endl;
+    // std::cout << x3 << std::endl;
     // std::unique_ptr<int> x4(x3); 不能共享，只能被x3独占。
     std::unique_ptr<int> x5 = std::move(x3); // 构造一个将亡值，将x3的资源转移给x5
     std::cout << x3.get() << std::endl;  // 0

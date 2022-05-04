@@ -61,6 +61,7 @@ int main()
     std::cout << vec[0]->GetValue() << std::endl;
     std::cout << vec[1]->GetValue() << std::endl;
 
+    // 虚继承用于解决多继承条件下的菱形继承问题（浪费存储空间、存在二义性）
     Derive3 d;
     d.x;  // 由于多重继承,导致有两个x, 错误:request for member ‘x’ is ambiguous, 使用虚继承可以解决.
 }

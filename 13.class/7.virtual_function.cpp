@@ -12,7 +12,8 @@ struct Base
     {
         std::cout << "Base: " << x << std::endl;
     }
-    virtual ~Base() //将基类的析构设定为virtual,派生类的析构也是virtual. 如果不加virtual,当Base* 指向一个派生类时,在delete 该基类指针时,可能不会调用派生类的析构
+    virtual ~Base() 
+    //将基类的析构设定为virtual,派生类的析构也是virtual. 如果不加virtual,当Base* 指向一个派生类时,在delete 该基类指针时,可能不会调用派生类的析构
     {
         std::cout << "Base deconstructor " << std::endl;
 
