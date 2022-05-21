@@ -1,0 +1,25 @@
+{
+   "options": {
+      "cwd": "${workspaceFolder}/build",
+   },
+   "tasks": [
+      {
+         "label": "cmake",
+         "command":"cmake",
+         "args": [".."], // "-DCMAKE_BUILD_TYPE=Debug", 
+      },
+      {
+         "label": "make",
+         "command":"make",
+      },
+      {
+         "label": "build",
+         "dependsOrder": "sequence", // 名字必须为build才能被快捷点ctrl+shit+b 识别build
+         "dependsOn":[
+            "cmake",
+            "make"
+         ],
+      }
+   ],
+   "version": "2.0.0"
+}

@@ -53,6 +53,7 @@ public:
 			while (true)
 			{
 				std::unique_lock<std::mutex> ulock1(mymutex1);
+				// 条件变量的wait中环境中，必须使用std::unique_lock。
 
 				// wait, 如果第二个参数的返回值是false,wait将解锁,并堵塞到本行. 堵塞到其他某个线程调用notify_one成员函数为止. 
 				// 如果第二个参数是true,则继续执行.
@@ -85,6 +86,7 @@ private:
 int main()
 {
 	// 条件变量std::condition_variable, wait(), notify_one()
+	// 条件变量的wait中环境中，必须使用std::unique_lock。
 	// std::condition_variable 是一个类,需要与互斥量合作.
 	// notify_one()只能通知一个线程,但是哪个线程被通知无法控制.
 	// 被wait阻塞的线程做相互影响的事情时,那么选择只通知一个.

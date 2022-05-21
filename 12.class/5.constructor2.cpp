@@ -89,7 +89,7 @@ int main()
     std::cout << "移动构造函数" << std::endl;
     Str m5;
     m5.fun(); // 3 abc
-    Str m6 = std::move(m5); // 移动构造函数， 此时如果Str2中，有移动掉移动，没有移动构造函数则调用Str2的拷贝构造函数
+    Str m6 = std::move(m5); // 移动构造函数， 此时如果Str2中，有移动调移动，没有移动构造函数则调用Str2的拷贝构造函数
     m5.fun();  // 3
     m6.fun();  // 3 abc    
 

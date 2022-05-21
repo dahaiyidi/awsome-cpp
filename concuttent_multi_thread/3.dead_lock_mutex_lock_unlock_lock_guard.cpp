@@ -46,7 +46,7 @@ public:
 			//std::lock_guard<std::mutex> myguard(mymutex);
 			// 
 			
-			std::lock(mymutex1, mymutex2);
+			std::lock(mymutex1, mymutex2); // 同时锁住两个互斥量，避免产生死锁
 			std::lock_guard<std::mutex> guard1(mymutex1, std::adopt_lock); //有了std::adopt_lock,则不会再lock
 			std::lock_guard<std::mutex> guard2(mymutex2, std::adopt_lock); //有了std::adopt_lock,则不会再lock
 			//mymutex1.lock();
@@ -111,7 +111,8 @@ int main()
 	// 2)使用std::lock() 一次就可以锁住两个及以上的互斥量. 如果所有的锁没有lock成功,则释放所有锁,防止死锁. 使用std::lock后还需要手动调用unlock
 	// std::lock()结合std::lock_guard<std::mutex> guard1(mymutex1, std::adopt_lock)即可不用手动调用unlock
 
-	//
+	// adopt_lock 	assume the calling thread already has ownership of the mutex 
+
 
 	std::cout << "end...\n";
 

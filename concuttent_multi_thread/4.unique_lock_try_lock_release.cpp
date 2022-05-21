@@ -86,10 +86,10 @@ int main()
 	//https://blog.csdn.net/qq_38231713/article/details/106092134
 	// unique_lock比lock_guard更加灵活,效率差一些
 	// unique_lock 的参数
-	//		也可以使用std::adopt_lock.在此之前要手动lock.
-	//		std::try_to_lock, 尝试锁定mutex,若没有锁定成功,也会立即返回,并不会阻塞在那里.在此之前不可手动lock.
-	//		std::defer_lock, 在此之前不可手动lock,初始化了一个没有加锁的mutex
-	//	try_lock() 在std::defer_lock之后尝试lock
+	//		std::adopt_lock.在此之前要手动lock.  assume the calling thread already has ownership of the mutex 
+	//		std::try_to_lock, 尝试锁定mutex,若没有锁定成功,也会立即返回,并不会阻塞在那里.在此之前不可手动lock. try to acquire ownership of the mutex without blocking
+	//		std::defer_lock, 在此之前不可手动lock,初始化了一个没有加锁的mutex. do not acquire ownership of the mutex
+	//try_lock() 在std::defer_lock之后尝试lock
 	// release() 让unique_lock和mutex不再有关系. 返回管理的mutex对象指针,并释放所有权. 与unlock不同.
 	//		std::unique_lock<std::mutex> ulock1(mymutex1);
 	//		std::mutex* ptr = ulock1.release();
@@ -101,7 +101,6 @@ int main()
 	//unique_lock 所有权的传递
 	//std::unique_lock<std::mutex> ulock1(mymutex1)代表ulock1拥有mymutex1的所有权
 	//所有权可以转移:std::unique_lock<std::mutex> ulock2(std::move(ulock1))
-
 
 	A a;
 	std::thread obj_in(&A::in, &a);

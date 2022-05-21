@@ -13,7 +13,7 @@ void dummy(int*){}
 std::shared_ptr<int> fun3()
 {
     static int res = 3;
-    return std::shared_ptr<int>(&res, dummy); // 什么都不做
+    return std::shared_ptr<int>(&res, dummy); // 销毁函数中什么都不做
 }
 
 void fun2(int* ptr)
