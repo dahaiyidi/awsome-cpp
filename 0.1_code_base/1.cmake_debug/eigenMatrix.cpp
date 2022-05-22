@@ -7,6 +7,7 @@ using namespace std;
 1.首先按ctrl+shift+B（或者状态栏中的build按钮，或者手动去cmake.. && make）， 进行build ,此时就会在build文件夹下有build好的可执行文件 。执行的操作在tasks.json中定义，且label必须为"build"，否则找不到build的任务。
 2.按f5开始调试， 执行的操作在launch.json中定义，在调试前自动进行"preLaunchTask": "build"。
 注：
+- 在安装了cmake插件的vscode中，默认ctrl + f5是cmake的调试（覆盖了vscode自身的run）， shift+f5是cmake的直接run
 - 在CMakeLists.txt文件中按ctrl+s时，vscode会自己build，但是有问题，需要此时需要删除build文件夹下的所有东西。
 - 必须先手动build一次，才能按f5，后面就不tasks.json用再次手动build了，不知为什么。
 - ctrl+shift+B 所寻找的build任务是tasks.json中label为"build"的任务。
